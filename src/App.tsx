@@ -2,6 +2,7 @@ import './App.css';
 import ImageCarousel from './components/ImageCarousel/ImageCarousel';
 import StarRating from './components/StarRating/StarRating';
 import SnackbarShell from './components/Snackbar/SnackbarShell';
+import { ProgressBarShell } from './components/ProgressBar/ProgressBarShell';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <StarRating />
       <ImageCarousel />
       <SnackbarShell />
+      <ProgressBarShell />
     </div>
   );
 }
