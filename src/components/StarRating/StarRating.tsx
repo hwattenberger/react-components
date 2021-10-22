@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Star from "./Star"
 
 const StarRating: React.FC = () => {
-    const [ratingNumber, setRatingNumber] = useState(0);
+    const [ratingNumber, setRatingNumber] = useState<number>(0);
 
     const changeStars = (num: number) => {
         setRatingNumber(num);
