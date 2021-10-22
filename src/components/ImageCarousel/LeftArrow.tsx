@@ -13,6 +13,7 @@ interface SVGStyle {
 
 const SVG = styled.svg<SVGStyle>`
     fill: ${props => props.isDisabled ? 'grey' : 'black'};
+    cursor: ${props => props.isDisabled ? 'inherit' : 'pointer'};
 `;
 
 const LeftArrow: React.FC<Props> = ({ goLeft, isDisabled }) => {
